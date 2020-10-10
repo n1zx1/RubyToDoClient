@@ -18,7 +18,7 @@ body{
 
 .LoginFormName,
 .RegistrationFormName{
-    background: #343a40;
+    background: #910E42;
     padding: 1%;
     color: white;
 }
@@ -36,7 +36,7 @@ body{
 .LoginForm button{
     width: 50%;
     background: none;
-    border: 2px solid #343a40;
+    border: 2px solid #910E42;
     border-radius: 10px;
     outline: none !important;
     transition: .5s;
@@ -45,7 +45,7 @@ body{
 .RegistrationForm button{
     width: 50%;
     background: none;
-    border: 2px solid #343a40;
+    border: 2px solid #910E42;
     border-radius: 10px;
     outline: none !important;
     transition: .5s;
@@ -60,12 +60,12 @@ body{
 }
 
 .LoginForm button:hover{
-    background: #343a40;
+    background: #910E42;
     color: white;
 }
 
 .RegistrationForm button:hover{
-    background: #343a40;
+    background: #910E42;
     color: white;
 }
 

@@ -31,7 +31,7 @@
     width: calc(75% - 20px);
     outline: none;
     border: none;
-    border-bottom: 2px solid #343a40;
+    border-bottom: 2px solid #910E42;
 }
 .AdditionalProps{
     margin-left: 1%;
@@ -45,7 +45,7 @@
 .AddNewTask button{
     width: 20%;
     background: none;
-    border: 2px solid #343a40;
+    border: 2px solid #910E42;
     border-radius: 10px;
     outline: none !important;
     transition: .5s;
@@ -53,11 +53,11 @@
 
 .AddNewTask button:hover{
     color: white;
-    background: #343a40;
+    background: #910E42;
 }
 
 .ProjectTitle{
-    background: #343a40;
+    background: #910E42;
     color: white;
     padding: 10px;
     display: flex;
