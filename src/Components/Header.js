@@ -17,7 +17,7 @@ export default class Header extends Component {
     render() {
         return (
             <>
-            <Navbar fixedtop="true" collapseOnSelect expand="md" bg="dark" variant="dark">
+            <Navbar fixedtop="true" collapseOnSelect expand="md" bg="danger" variant="dark">
                 <Container>
                 <Navbar.Brand>
                     <i className="fas fa-list-alt"></i>
