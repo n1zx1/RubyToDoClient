@@ -65,7 +65,7 @@ function confirmRegistration(){
 
 export function getToken(_login, _password){
     return new Promise((resolve, reject) => {
-        sendRequest('POST', 'http://n1zx1.pythonanywhere.com/api/token', {
+        sendRequest('POST', 'https://n1zx1.pythonanywhere.com/api/token', {
             'username' : document.getElementById("login").value,
             'password' : document.getElementById("password").value
         })
@@ -76,7 +76,7 @@ export function getToken(_login, _password){
 
 function checkLogin(_login, _password){
     return new Promise((resolve, reject) => {
-        sendRequest('POST', 'http://n1zx1.pythonanywhere.com/api/users/', {
+        sendRequest('POST', 'https://n1zx1.pythonanywhere.com/api/users/', {
             'username' : document.getElementById("login").value,
             'password' : document.getElementById("password").value
         })

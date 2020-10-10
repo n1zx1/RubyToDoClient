@@ -64,7 +64,7 @@ function addtodo(){
 }
 
 function sendNewProject(text){
-    sendRequest('POST', 'http://n1zx1.pythonanywhere.com/api/projects/',{
+    sendRequest('POST', 'https://n1zx1.pythonanywhere.com/api/projects/',{
         'name' : text
     })
     .then(()=>{

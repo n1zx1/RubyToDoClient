@@ -36,7 +36,7 @@ export default class App extends Component {
 
 export function LoadProjects(object){
   if(localStorage.getItem('isLoaded') !== 'true'){
-    sendRequest('GET', 'http://n1zx1.pythonanywhere.com/api/projects')
+    sendRequest('GET', 'https://n1zx1.pythonanywhere.com/api/projects')
     .then(data => {
       localStorage.setItem('projects', JSON.stringify(data))
       object.setState({loaded: true})
