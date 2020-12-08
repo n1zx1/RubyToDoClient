@@ -50,7 +50,10 @@ export default class Task extends Component {
     editTask(){
         swal({
             text: "Введите новый текст для задачи",
-            content: "input",
+            content: {
+                element:  "input",
+                attributes: {placeholder: "Add registration"}
+            },
            button: {
             text: "ОК",
             closeModal: true,

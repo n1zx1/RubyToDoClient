@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Project from './Project'
+import GraphicBuilder from './Graphic'
 
 var parent
 export default class ToDoList extends Component {
@@ -9,13 +10,17 @@ export default class ToDoList extends Component {
         parent = props.parent
     }
     render() {
-        return (
+        return (            
             <div>
+                {/* <div>
+                    <GraphicBuilder/>
+                </div> */}
                <Projects Projects = {localStorage.getItem('projects')}/>
             </div>
         )
     }
 }
+
 
 function Projects(props){
     const projects = JSON.parse(props.Projects)
