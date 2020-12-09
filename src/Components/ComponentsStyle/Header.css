@@ -5,12 +5,3 @@
 .headerButtons button{
     margin-left: 10px;
 }
-
-#swalInput{
-    width: 90%;
-}
-
-.swal p{
-    margin: 0;
-    margin-top: 10px;
-}
