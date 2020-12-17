@@ -21,7 +21,7 @@ export default class Header extends Component {
                 <Container>
                 <Navbar.Brand>
                     <i className="fas fa-list-alt"></i>
-                    RubyGarage ToDo List
+                    TeamToDo List
                 </Navbar.Brand>
                 <div className="headerButtons">
                     <Button inline = "true" variant="light" onClick={addtodo}><i className="fas fa-plus"></i>Add TODO</Button>
